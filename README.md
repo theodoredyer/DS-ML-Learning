@@ -1,2 +1,2 @@
 # Machine-Learning-Projects
- Independant work experimenting with machine learning practices
+ Independant work experimenting with different machine learning models
