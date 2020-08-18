@@ -26,3 +26,12 @@ Each Segment:
 - Training data used to train the model params
 - Validation Data used to determine what mdoel hyperparameters to adjust
 - Test data used for final performance metrics.
+
+
+### Evaluating Performance
+- Accuracy = number of correct predictions made by the model divided by the total number of predictions. Accuracy is good to use when there are a roughly equal number of target class members, if you're trying to predict if somehting is a dog or a cat, its best when there are 50% of each in the test set.
+- Recall = ability of a model to find all the relevant cases within a dataset, number of true positives divided by the number of true positives + false negatives
+- Precision = ability of a classification model to identify only the relevant datapoints, the number of true positives divided by the number of true positives + false positives
+- F1 Score = combination of precision and recall, harmonic mean of precision and recall. 
+
+In classification, our model is either correct or incorrect. 
