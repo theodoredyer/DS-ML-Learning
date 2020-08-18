@@ -15,7 +15,7 @@ Each Segment:
 - Neural network receives a set of input data and what output it should produce. 
 - Supervised learning is used to predict likely future events. 
 
-#### Steps
+#### Steps 
 - Data Acquisition - Get your data
 - Data Cleaning - clean and format so your neural net can process it
 - Split data between test and training, use the training set to fit the model to the data, and then test it against test data. 
