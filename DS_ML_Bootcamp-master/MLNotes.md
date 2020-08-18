@@ -28,10 +28,32 @@ Each Segment:
 - Test data used for final performance metrics.
 
 
-### Evaluating Performance
+### Evaluating Performance - Classification
 - Accuracy = number of correct predictions made by the model divided by the total number of predictions. Accuracy is good to use when there are a roughly equal number of target class members, if you're trying to predict if somehting is a dog or a cat, its best when there are 50% of each in the test set.
 - Recall = ability of a model to find all the relevant cases within a dataset, number of true positives divided by the number of true positives + false negatives
 - Precision = ability of a classification model to identify only the relevant datapoints, the number of true positives divided by the number of true positives + false positives
 - F1 Score = combination of precision and recall, harmonic mean of precision and recall. 
 
 In classification, our model is either correct or incorrect. 
+
+### Evaluating Performance - Regression
+A model is trying to predict a continuous value.
+
+- Accuracy / recall are not useful here
+
+##### Example: lets predict the price of a house given features
+#### Common metrics for regression:
+- Mean Absolute Error = mean of the absolute value of errors, comparing our continuous value to the true y label
+- Mean Squared Error = Mean of the squared errors, larger errors are noted more than with MAE, MSE is more popular
+- Root Mean Square Error = Root of the mean of the squared errors = just the square root of MSE, most popular metric
+
+#### Context is everything when evaluating performance.
+try to compare your error metric to the average value of a label in your data set to get an intuition for the performance.
+
+
+
+
+
+
+
+
