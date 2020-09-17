@@ -1,2 +1,2 @@
 # Machine-Learning-Projects
- Independant work in data science and machine learning with Python - utilizing pandas, numpy, seaborn, sklearn
+Applications and notes from Data Science and ML Bootcamps. Udemy's "Python for Data Science and Machine Learning Bootcamp" and Linkedin Learning's "Data Science Essentials"
