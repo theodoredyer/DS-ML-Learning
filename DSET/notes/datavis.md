@@ -21,4 +21,10 @@
  ### Time Series Plots
  - Measure of unit change over time for any variable under observation
  - Built in python datetime module suplies classes for manipulating date/time in simple and complex ways
- 
+
+
+ ### Statistical Plots
+ - Identify Outliers
+ - Visualize Distributions
+ - Deduce Variable types
+ - Discover relationships and core relations between variables in a dataset
