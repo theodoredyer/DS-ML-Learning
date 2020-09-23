@@ -30,3 +30,20 @@ Uses:
 - Spearman's Rank = finds R correlation between variable-pairs of ordinal data type, variable pairs are then able to be ranked according to strength of correlation between them. Assumes variables are ordinal; numeric, but able to be ranked, assumes nonlinear, and non-normally distributed
 - Chi-Square test. p < 0.05 = reject null hypothesis (variables are correlated) & p > 0.05 = accept null hypothesis (variables are independent)
 - Use Chi square tables if variables are categorical or numeric, and we have binned numeric variables
+
+
+### Transforming dataset distributions
+- Important to scale data to ensure differing magnitude among variables doesn't produce erraneous results
+- Normalization = putting each observation on a relative scale between 0-1
+- Standardization = rescaling data so that it has a zero mean and unit variance
+- Done with scikit-learn to scale, center, normalize, bin, and imputing
+
+
+### Extreme Value Analysis
+
+- Most ML methods assume that the data has been treated for outliers already
+- Used to detect fraud, equipment faulure, etc
+
+
+### Multivariate Outlier Detection
+- Find outliers that only show up within combinations of observations from two or more different variables
