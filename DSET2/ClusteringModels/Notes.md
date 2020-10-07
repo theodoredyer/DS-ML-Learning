@@ -27,3 +27,13 @@
 - Distance metrics = euclidian, manhattan, cosine
 - Linkage parameters = ward, complete, average
 
+
+# DBSCAN for Outlier Detection
+- Unsupervised method that clusters core samples (dense areas of a dataset) and denotes non-core samples (sparse portions of the dataset)
+- Used to identify collective outliers
+- Outliers should make up < 5% of the total observations. Adjust model parameters accordingly
+
+
+### DBSCAN model parameters:
+- eps max distance between two samples to collective cluster start at 0.1
+- min_samples = minimum number of samples in a neighborhood for a datapoint to qualify
