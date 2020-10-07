@@ -20,3 +20,6 @@
 - Dataset has distinguishable subgroups
 - Avoid using on large datasets
 
+
+## Decision Tree
+- Decision-support tool that models decisions in order to predict probable outcomes of those decisions
